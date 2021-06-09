@@ -1,5 +1,5 @@
 {
-    "name": "Laravel/laravel-getui",
+    "name": "laravel/laravel-getui",
     "description": "A getui package for laravel or lumen.",
     "type": "library",
     "license": "MIT",
