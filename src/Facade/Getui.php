@@ -15,8 +15,8 @@ use Laravel\Getui\GetuiService;
  */
 class Getui extends Facade
 {
-    protected static function getFacadeAccessor()
-    {
-        return GetuiService::class;
-    }
+	protected static function getFacadeAccessor()
+	{
+		return GetuiService::class;
+	}
 }
