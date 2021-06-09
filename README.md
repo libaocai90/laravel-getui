@@ -21,7 +21,7 @@
 
 ### 安装
 ```
-composer require Laravel/laravel-getui 
+composer require libaocai/laravel-getui 
 ```
 
 
