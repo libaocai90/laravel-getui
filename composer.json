@@ -1,0 +1,20 @@
+{
+    "name": "Laravel/laravel-getui",
+    "description": "A getui package for laravel or lumen.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel90",
+            "email": "oracle_lee@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Laravel\\Getui\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Laravel\\Getui\\": "src"}
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
