@@ -203,7 +203,7 @@ trait TemplateTrait
         $alertmsg->titleLocArgs = array("TitleLocArg");
 
         $apn->alertMsg = $alertmsg;
-        $apn->badge = 1;
+        $apn->autoBadge = "+1";
         $apn->sound = "";
 
         $apn->add_customMsg("payload", $transContent);
