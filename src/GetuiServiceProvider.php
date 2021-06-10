@@ -1,6 +1,6 @@
 <?php
 
-namespace LysiLaravelce\Getui;
+namespace Laravel\Getui;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
