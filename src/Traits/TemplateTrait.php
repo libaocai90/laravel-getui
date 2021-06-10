@@ -203,6 +203,7 @@ trait TemplateTrait
         $alertmsg->titleLocArgs = array("TitleLocArg");
 
         $apn->alertMsg = $alertmsg;
+	    $apn->badge = 1;
         $apn->autoBadge = "+1";
         $apn->sound = "";
 
@@ -214,7 +215,7 @@ trait TemplateTrait
             }
             $apn->add_customMsg($customField, $customData[$customField]);
         }
-        $apn->contentAvailable = 1;
+        $apn->contentAvailable = 0;
         $apn->category = "ACTIONABLE";
         return $apn;
     }
