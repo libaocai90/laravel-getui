@@ -109,6 +109,11 @@ trait TemplateTrait
         $template->set_transmissionContent($transContent);
         //$template->set_duration(BEGINTIME,ENDTIME); //设置ANDROID客户端在此时间区间内展示消息
 
+	    //增加透传消息 notify信息设置
+	    $notify = new \IGtNotify();
+	    $notify->set_title($data['title']);
+	    $notify->set_content($data['content']);
+
         // iOS推送必要设置
         $apn = $this->setIOSPushInfo($data['content'], $data['title'], $transContent, $data['custom_fields'], $data['custom_data']);
         $template->set_apnInfo($apn);

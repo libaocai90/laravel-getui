@@ -249,5 +249,8 @@ Getui::pushToList('transmission', $data);
 ```
 调整iOS端推送 autoBadge = "+1" ,每次推送自动更新角标+1
 ```
-
+#### v1.4.0 版本更新
+```
+修复安卓小米手机透传消息离线推送失败问题
+```
 
