@@ -113,6 +113,7 @@ trait TemplateTrait
 	    $notify = new \IGtNotify();
 	    $notify->set_title($data['title']);
 	    $notify->set_content($data['content']);
+	    $template->set3rdNotifyInfo($notify);
 
         // iOS推送必要设置
         $apn = $this->setIOSPushInfo($data['content'], $data['title'], $transContent, $data['custom_fields'], $data['custom_data']);
